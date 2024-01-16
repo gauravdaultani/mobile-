@@ -102,7 +102,14 @@
         background-color: #343a40; /* Dark background color for the header */
         padding: 20px 0; /* Increased height for the header */
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow for a professional look */
-      }
+        position: sticky;
+        height: 80px;
+        padding: 0px;
+        background-color: #007eb6;
+        position: sticky;
+        top: 0;
+        z-index: 999;}
+          
   
       header a {
         color: #fff; /* White text color for header links */
@@ -143,6 +150,15 @@
       footer .container {
         width: 100%; /* Set the width of the container to 100% */
         max-width: 100%; /* You can adjust the max-width to your preference */
+      }
+      .specifications-content {
+        display: none; /* Initially hide the specifications content */
+        margin-top: 20px;
+      }
+  
+      /* Custom styles for the "Buy" button */
+      .buy-button {
+        margin-top: 10px;
       }
 
     .carousel-item {
